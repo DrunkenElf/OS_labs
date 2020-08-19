@@ -1,0 +1,84 @@
+    1  cd
+    2  mkdir ~/week1
+    3  cd ~/week1
+    4  ls /usr/bin | grep gcc | sort -r > ex1.txt
+    5  cd
+    6  sudo apt-get install gcc
+    7  sudo su
+    8  explorer.exe
+    9  gcc
+   10  sudo su
+   11  cd ~/week1
+   12  ls /usr/bin |grep gcc | sort -r > ~/week1/ex1.txt
+   13  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   14  ls /forne/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   15  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   16  ls ./usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   17  ls /usr/bin | grep gcc | sort -ra > ~/week1/ex1.txt
+   18  ls /usr/bin | grep gcc | sort -lr > ~/week1/ex1.txt
+   19  ls
+   20  echo ex1.txt
+   21  head
+   22  head ex1.txt
+   23  rm -rf /
+   24  sudo apt update -y
+   25  apt list --upgradable
+   26  nano ex1.txt
+   27  cd
+   28  cd ~/usr/bin
+   29  cd /usr/bin
+   30  ls
+   31  ls -a
+   32  cd ~/week1
+   33  rm ex1.txt
+   34  ls -a
+   35  cd
+   36  ls /usr/bin | grep gcc | sort -r > ~/week1/ex1.txt
+   37  cd ~/week1
+   38  head ex1.txt
+   39  cd
+   40  git
+   41  git config checkout
+   42  sudo apt install git-all
+   43  git config --list --show-origin
+   44  git config --global user.name "Forne"
+   45  git config --global user.email dolbanutiy@gmail.com
+   46  git config --list
+   47  git config --global core.autocrlf input
+   48  git config --global core.safecrlf warn
+   49  git config --list
+   50  git config --global core.quotepath off
+   51  git config --list
+   52  git config --list --show-origin
+   53  cd /home
+   54  ls -a
+   55  pwd
+   56  cd
+   57  pws
+   58  ls -a
+   59  cd ~/
+   60  cd ~/week1
+   61  pwd
+   62  cd
+   63  mkdir ~/os_labs
+   64  cd /os_labs
+   65  cd ~/oslabs
+   66  cd ~/os_labs
+   67  git init
+   68  ls -a
+   69  cd
+   70  cp ~/week1/ex1.txt ~/os_labs/week1/
+   71  cd ~/os_labs
+   72  mkdir week1 wee2
+   73  find
+   74  rm -r wee2
+   75  ls -a
+   76  mkdir week2
+   77  ls -a
+   78  cp ~/week1/ex1.txt ~/os_labs/week1/
+   79  ls -a
+   80  cd week1
+   81  ls -a
+   82  head ex1.txt
+   83  tee --help
+   84  history | tee ~/week1/ex2.txt ~/os_labs/week1/ex2.txt
