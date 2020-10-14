@@ -1,0 +1,8 @@
+
+If we will often refer to already refered previosly, we'll increase hit
+
+To decrease it, we can almost every time refer to the page which was previously removed from frames
+
+
+To maximize hits we have to refer to page every n-ticks where n - number of frames
+To minimize - refer every 2n 
