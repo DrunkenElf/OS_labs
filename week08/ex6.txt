@@ -1,0 +1,14 @@
+virtual address size= 16 bit
+page size = 8 KB = 8 * 1024 = 8192 bytes
+
+
+Lets  compute virtual spce size:
+  virtual space size = 2 ^ 16 
+Represent page size with offset:
+  8192 bytes = 2 ^ 13
+16 -13 = 3 - difference
+num of entries = 2 ^ 3 = 8
+
+
+
+

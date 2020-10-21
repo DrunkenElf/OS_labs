@@ -1,0 +1,2 @@
+physicall address - address in hardwarw memory page
+virtual address - address in virtual memory page maps process's virtual memory with some storage 
