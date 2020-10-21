@@ -1,0 +1,11 @@
+-rw-rw-rw- 1 forne forne 4 Oct 21 23:40 _ex3.txt
+-rwxrw-rwx 1 forne forne 4 Oct 21 23:42 _ex3.txt
+-rwxrwxrwx 1 forne forne 4 Oct 21 23:45 _ex3.txt
+
+
+
+660 : rw for user and group
+
+775: rwe for user and group; re for others
+
+777: rwe for everyone

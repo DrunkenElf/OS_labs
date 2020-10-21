@@ -1,0 +1,19 @@
+  1  cd os_labs
+  2  mkdir week10
+  3  cd week10
+  4  echo "some text" > _ex1.txt
+  5  ls
+  6  ln _ex1.txt _ex1_1.txt
+  7  ln _ex1.txt _ex1_2.txt
+  8  ls -i > ex1.txt
+  9  ls
+  10  explorer
+  11  cd..
+  12  echo "some text" > ~/os_labs/week01/file.txt
+  13  link  ~/os_labs/week01/file.txt _ex2.txt
+  14  ls
+  15  ls -i _ex2.txt
+  16  find ~/os_labs/week01/file.txt -inum 12912
+  17  find  ~/os_labs/week01/file.txt -inum 12912 -exec rm {}\;
+  18  find  ~/os_labs/week01/file.txt -inum 12912 -exec rm {} \; >> ex2.txt
+  19  history > ex2.txt
