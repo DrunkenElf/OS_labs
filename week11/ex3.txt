@@ -1,0 +1,5 @@
+ in the 1st program line buffer will not be empty due to missing "\n"
+thus after forking it line buffer will contain "hello" => in the output we'll see "hello" 2 times
+
+ in the 2nd program we hve "\n" => line buffer will be cleared before forking
+thus we'll see "hello" only once
