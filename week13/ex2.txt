@@ -1,1 +1,26 @@
-asdasdsadasd
+recovery: It aborts a process or prevents some resources when deadlocks detected.
+	Usually it consists of three approaches: 
+		Process termination which involved in deadlock 
+		Informing system and letting him to take control
+		And preempt resources
+	During termination it can terminate all processes involved in deadlock or terminate one by one
+		Also it can check how many processes and how long they've been executing
+
+	
+
+prevention: Prevents deadlocks by preventing 1 of 4 conditions
+	Mutual Exclusion: read-only resources don't lead to deadlocks, but not all read-only 
+		files can be used in parallel
+	Hold and Wait: free resources before fetching new resources. Require to request all
+		resources at one time
+	No preemption: can be used only in programs which can easily save and restore state
+	Circular wait: we number all resources and allow to request resources in incr. or decr. 
+		order.
+
+
+avoidance: prevents deadlocks from happening by preventing the above conditions. Too expensive due
+	to requiring a lot of information about processes
+
+
+
+
